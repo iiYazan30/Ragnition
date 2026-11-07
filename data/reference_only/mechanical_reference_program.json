@@ -1,0 +1,31 @@
+{
+  "program_id": "reference_mechanical_engineering",
+  "program_name_ar": "الهندسة الميكانيكية",
+  "major_code": "10621",
+  "plan_version": "2021-1",
+  "total_required_credits": 162,
+  "credit_groups": [
+    {
+      "name_ar": "إجباري جامعة",
+      "required_credits": 19
+    },
+    {
+      "name_ar": "إجباري تخصص",
+      "required_credits": 129
+    },
+    {
+      "name_ar": "إختياري تخصص",
+      "required_credits": 12
+    },
+    {
+      "name_ar": "مساق حر",
+      "required_credits": 2
+    }
+  ],
+  "course_rows": 130,
+  "course_coverage": "all_rows_in_supplied_public_html",
+  "source_document_id": "zajel_10621_2021_1",
+  "source_filename": "mechanical_engineering_10621_2021_1.htm",
+  "plan_duration_years": null,
+  "duration_note": "Do not derive duration from credits alone."
+}

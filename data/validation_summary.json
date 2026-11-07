@@ -1,0 +1,22 @@
+{
+  "target_programs": 4,
+  "course_rows_total": 372,
+  "course_rows_by_program": {
+    "computer_engineering": 125,
+    "medicine": 123,
+    "physical_education": 64,
+    "vehicle_engineering": 60
+  },
+  "reference_mechanical_course_rows": 130,
+  "inferred_prerequisite_candidates": 19,
+  "vehicle_courses_without_sufficient_prerequisite_inference": 41,
+  "vehicle_complete": false,
+  "student_identity_included": false,
+  "checks": [
+    "Unique program-plan-course IDs",
+    "All primary HTML rows retain verbatim cell text",
+    "No inferred prerequisites in official course records",
+    "Sports is 11350 only",
+    "Vehicle elective options and free-credit discrepancy explicitly retained as unresolved"
+  ]
+}

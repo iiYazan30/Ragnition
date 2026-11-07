@@ -1,0 +1,3182 @@
+
+<!-- saved from url=(0046)https://zajelbs.najah.edu/servlet/UniCurricula -->
+<html dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<meta http-equiv="Content-Language" content="ar-sa">
+
+<style>
+.headerfont { font-size : 20px }
+.datafont   { font-size : 15px }
+.mainfont   { font-size : 13px }
+.footerfont { font-size : 10px }
+</style>
+<style>
+a:hover {
+  text-decoration: none;
+}
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  white-space: normal;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:    
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:         
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+  white-space: normal;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+  white-space: normal;
+ white-space: pre-wrap; 
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+}
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 250px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: normal;
+ white-space: pre-wrap; 
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+}
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform:    translateX(-12px);
+  transform:         translateX(-12px); 
+}
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform:    translateY(12px);
+  transform:         translateY(12px); 
+}
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px);
+}
+.tooltip-left:before,
+.tooltip-right:before {
+ top: 3px;
+}
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+</style>
+<style></style></head>
+<body topmargin="10" rightmargin="20" link="#000000" vlink="#000000" alink="#000000">
+<center>
+<table width="100%" cellspacing="0" cellpadding="0" borders="0">
+<tbody><tr>
+<td valign="middle" colspan="2" align="center" bgcolor="#DDEEEE" class="mainfont">
+<img border="0" src="./UniCurricula1_files/logo.gif" height="100" width="100" alt="NNU Logo" align="middle">
+<a style="TEXT-DECORATION: none" href="http://zajel.najah.edu/"> <b> &nbsp;<span style="font-size:22px;font-family:DroidKufiRegular"> زاجل - البرنامج الأكاديمي لجامعة النجاح الوطنية 
+</span></b></a><b>
+</b></td>
+</tr>
+ <tr><td colspan="2" bgcolor="#008088" height="20" class="mainfont">
+&nbsp;&nbsp;<font color="yellow">
+November 7, 2026
+ </font> </td></tr>
+ <tr><td colspan="2" bgcolor="#DDEEEE" height="1" class="mainfont"> </td></tr>
+</tbody></table>
+<div align="center" class="headerfont"><br>
+ الخطط الدراسية 
+</div>
+<br><table border="0"><tbody><tr>
+<form action="https://zajelbs.najah.edu/servlet/UniCurricula" method="Post" name="f"></form>
+<td class="datafont"> الرجاء ادخال رمز أو اسم التخصص:  </td>
+<td class="datafont"><input type="text" name="majVal" size="30"></td>
+<td class="datafont"><input type="submit" value="بحث"></td>
+
+</tr></tbody></table>
+<script language="Javascript">
+<!--
+document.f.majVal.focus();
+//-->
+</script>
+<br> <table border="0" cellpadding="5" cellspacing="1">
+<tbody><tr>
+<td bgcolor="#F2F6F7" nowrap="" class="datafont">رمز التخصص: <b>10702</b>    &#8195; <font color="red">Credit Hour</font></td>
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" align="right" lan="en" dir="ltr" nowrap="" class="datafont"> التخصص: <b>
+الطب البشري من كلية الطب البشري والعلوم الطبية المساندة
+</b></td>
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" align="left" lan="en" dir="ltr" nowrap="" class="datafont"> Major:<b>
+Medicine by the Faculty of Medicine and Health Sciences
+</b></td>
+</tr>
+<tr>
+<form action="https://zajelbs.najah.edu/servlet/UniCurricula" method="get"></form>
+<input type="hidden" name="majVal" value="10702">
+<td bgcolor="#F2F6F7" nowrap="" class="datafont"> الخطط الدراسية المتوفرة: 
+<select size="1" name="curVal">
+<option value="2025-1"> &nbsp;&nbsp;&nbsp; 
+2025-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2021-1"> &nbsp;&nbsp;&nbsp; 
+2021-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2020-2"> &nbsp;&nbsp;&nbsp; 
+2020-2 &nbsp;&nbsp;&nbsp; </option>
+<option value="2020-1"> &nbsp;&nbsp;&nbsp; 
+2020-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2015-2"> &nbsp;&nbsp;&nbsp; 
+2015-2 &nbsp;&nbsp;&nbsp; </option>
+<option value="2013-1"> &nbsp;&nbsp;&nbsp; 
+2013-1 &nbsp;&nbsp;&nbsp; </option>
+</select>
+<input type="submit" value="عرض">
+</td>
+
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" class="datafont"><br><font color="maroon"><b>
+الخطة: سنة  2025 - فصل 1
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+مجموع الساعات المطلوبة:</b></font><b>
+<a href="https://zajelbs.najah.edu/servlet/UniCurricula?majVal=10702&amp;curVal=2025-1&amp;dispOpt=0">
+266</a></b></td>
+</tr>
+</tbody></table>
+<br><table border="0" cellpadding="6" cellspacing="3" style="-moz-box-shadow: 5px 5px 2px #888;-webkit-box-shadow: 5px 5px 2px #888;box-shadow: 5px 5px 2px #888">
+<tbody><tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إجباري جامعة
+: عدد الساعات المطلوبة=16
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10032100" target="_black">10032100</a></td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">انجليزي استدراكي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Remedial English</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000103" target="_black">11000103</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اللغة الانجليزية 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">English Language I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000110" target="_black">11000110</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">خدمة المجتمع في المراكز الصحية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Community Service in Health Centers</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000113" target="_black">11000113</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اللغة العربية في الطب والصحة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Arabic Language in Medicine and Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000114" target="_black">11000114</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">دراسات فلسطينية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Palestinian Studies</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000115" target="_black">11000115</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">ثقافة إسلامية في الطب والصحة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Islamic Culture in Medicine and Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000117" target="_black">11000117</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مهارات قيادة واتصال</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Leadership and Communication Skills</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000129" target="_black">11000129</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة في الذكاء الاصطناعي وعلم البيانات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Artificial Intelligence and Data Science</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000320" target="_black">11000320</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">اللغة الإنجليزية المتقدمة في الطب</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Advanced English in Medicine</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إختياري جامعة
+: عدد الساعات المطلوبة=3
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000116" target="_black">11000116</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">اللغة الألمانية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">German Language</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000119</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اللغة الإيطالية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Italian Language</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000120" target="_black">11000120</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">اللغة الفرنسية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">French Language</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000121</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اللغة الإسبانية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Spanish Language</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إجباري تخصص - علوم طبية أساسية
+: عدد الساعات المطلوبة=87
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101101" target="_black">7101101</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مقدمة تشريح</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Anatomy</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101102" target="_black">7101102</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تشريح صدر، بطن، حوض</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Anatomy Thorax Abdomen Pelvis</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم التشريح للصيدلة">
+7101204
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="مقدمة تشريح">
+7101101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101104" target="_black">7101104</a></td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">تشريح صدر وبطن وحوض عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Anatomy Thorax Abdomen Pelvis lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7102201" target="_black">7102201</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم وظائف الاعضاء الطبي 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Medical Physiology I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7102202" target="_black">7102202</a></td>
+<td bgcolor="white" valign="top" class="datafont">4</td>
+<td bgcolor="white" valign="top" class="datafont">علم وظائف الاعضاء الطبي 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medical Physiology II</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم وظائف الاعضاء الطبي 1">
+7102201
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم وظائف الاعضاء الطبي 1">
+140222
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7102212" target="_black">7102212</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم وظائف الأعضاء عملي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Medical Physiology lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم وظائف الاعضاء الطبي 2">
+7102202
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم وظائف الاعضاء الطبي 2">
+7102202
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103101" target="_black">7103101</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">علم الانسجة 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Histology 1</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103102" target="_black">7103102</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الانسجة 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Histology 2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الانسجة 1">
+7103101
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الانسجه 1">
+140321
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم الانسجه 1">
+140321
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="علم الانسجة 1">
+7103101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103301" target="_black">7103301</a></td>
+<td bgcolor="white" valign="top" class="datafont">5</td>
+<td bgcolor="white" valign="top" class="datafont">علم الامراض 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pathology I</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103302" target="_black">7103302</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">5</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الامراض 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Pathology II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الامراض 1">
+7103301
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم الامراض 1">
+7103301
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont">7103309</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">علم الأمراض 1 عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pathology 1 Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103310" target="_black">7103310</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الأمراض 2 عملي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Pathology II Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104101" target="_black">7104101</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم الاحياء العام للعلوم الصحية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Biology for Health Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104210" target="_black">7104210</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مبادئ الكيمياء الحيوية وكيمياء حيوية استقلابية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Principles of Biochemistry and Metabolic Biochemistry</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عامه  للعلوم الصحية">
+7004001
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104211" target="_black">7104211</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر مبادئ الكيمياء الحيوية وكيمياء حيوية استقلابية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Principles of Biochemistry and Metabolic Biochemistry Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عامه  للعلوم الصحية">
+7004001
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104212" target="_black">7104212</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الكيمياء الحيوية الجزيئية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Molecular Biochemistry</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104213" target="_black">7104213</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر الكيمياء الحيوية الجزيئية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Molecular Biochemistry Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104214" target="_black">7104214</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الوراثة الانساني</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Human Genetics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105302" target="_black">7105302</a></td>
+<td bgcolor="white" valign="top" class="datafont">4</td>
+<td bgcolor="white" valign="top" class="datafont">علم الاحياء الدقيقة الطبي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medical Microbiology</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة العام">
+7105301
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105306" target="_black">7105306</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم المناعة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Immunology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة العام">
+140431
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة العام">
+7105301
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105307" target="_black">7105307</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">طرق ووسائل المختبرات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Lab Methods</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الكيمياء الحيوية الجزيئية">
+7104202
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الكيمياء الحيوية الجزيئية">
+7104212
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="الكيمياء الحيوية الجزيئية">
+7104202
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="الكيمياء الحيوية الجزيئية">
+7104212
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة العام">
+7105301
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة العام">
+7105301
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة الطبي">
+7105302
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم الاحياء الدقيقة الطبي">
+7105302
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="علم المناعة">
+7105306
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم المناعة">
+7105306
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105403" target="_black">7105403</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الأحياء الدقيقة العام</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Microbiology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105404" target="_black">7105404</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر علم الأحياء الدقيقة العام</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Microbiology Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="علم الأحياء الدقيقة العام">
+7105403
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7106201" target="_black">7106201</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الصحة العامة وعلم الوبائيات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Public Health and Epidemiology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7106301" target="_black">7106301</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">علم التغذية الطبية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medical Nutrition</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7108101" target="_black">7108101</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">فيزياء حيوية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Biophysics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227201" target="_black">7227201</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم السلوك الطبي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Behavioral Science</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227212" target="_black">7227212</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الفلسفة في الطب</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Philosophy in Medicine</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227301" target="_black">7227301</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم النفس السريري</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Clinical Psychology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7309201" target="_black">7309201</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الأدوية 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Pharmacology I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7309202" target="_black">7309202</a></td>
+<td bgcolor="white" valign="top" class="datafont">4</td>
+<td bgcolor="white" valign="top" class="datafont">علم الأدوية 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pharmacology II</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10216235" target="_black">10216235</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الاحصاء الحيوي لطلبة الطب والعلوم الصحية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Biostatistics for Medical and Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231114" target="_black">10231114</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">كيمياء عامة للعلوم الصحية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Chemistry for Health Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231115" target="_black">10231115</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">كيمياء عامة للعلوم الصحية عملي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Chemistry Lab for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231236" target="_black">10231236</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الكيمياء العضوية للعلوم الصحية 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Organic Chemistry I for Health Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عامه  للعلوم الصحية">
+7004001
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية عملي">
+10231115
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عامه  للعلوم الصحية">
+7004001
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="كيمياء عامه  للعلوم الصحية">
+7004001
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية عملي">
+10231115
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231239" target="_black">10231239</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الكيمياء العضوية للعلوم الصحية عملي 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Practical Organic Chemistry I for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة عملي 2">
+10231108
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 1">
+10231236
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عضوية 1">
+10231231
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="كيمياء عضوية 1">
+10231231
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 1">
+10231236
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إختياري تخصص - المرحلة الأولى
+: عدد الساعات المطلوبة=25
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7000412</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">استخدام أدوات الذكاء الاصطناعي في البحث العلمي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">AI in Scientific Research</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7004006</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">رياضيات للعلوم الصحية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Mathematics for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101200" target="_black">7101200</a></td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">تشريح ظهر وأطراف عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Anatomy Limbs &amp; Back lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101201" target="_black">7101201</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تشريح (ظهر وأطراف)</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Anatomy Limbs &amp; Back</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101202" target="_black">7101202</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">تشريح (رأس ورقبة)</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Anatomy Head &amp; Neck</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7101203" target="_black">7101203</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التشريح العصبي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Neuroanatomy</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7101205</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم الأجنة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Embryology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7101301</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تشريح العين وبنية العين</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Anatomy of the Eye and Ocular Stuctures</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7102301" target="_black">7102301</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم الاعصاب</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Neurophysiology</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم التشريح وعلم وظائف الاعضاء للعلوم الصحية 2">
+7102102
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="التشريح العصبي">
+7101203
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7102302</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">فسيولوجيا العين وبنية العين</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Physiogy of the Eye and Ocular Stuctures</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7103212</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">سوائل الجسم في الصحة والمرض</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Body Fluids in Health &amp; Disease</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7103213</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر سوائل الجسم في الصحة والمرض</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Body Fluids in Health &amp; Disease Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7103313</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم الغدد الصماء السريري</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Clinical Endocrinology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103318" target="_black">7103318</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الدم</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Hematology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103319" target="_black">7103319</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر علم الدم</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Haematology Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103320" target="_black">7103320</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التخثر والاتزان الدموي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Coagulation and Homeostasis</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103321" target="_black">7103321</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر التخثر والاتزان الدموي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Coagulation and Homeostasis Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103322" target="_black">7103322</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الدم المناعي وبنك الدم</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Immunohematology &amp; Blood Banking</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7103323" target="_black">7103323</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر علم الدم المناعي وبنك الدم</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Immunohematology &amp; Blood Banking Lab.</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7104102" target="_black">7104102</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم الخلية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Cell Biology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الاحياء العام للعلوم الصحية">
+7104101
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="احياء عامه للصيدله">
+24121
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="احياء عامه للصيدله">
+24121
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="علم الاحياء العام للعلوم الصحية">
+7104101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105312" target="_black">7105312</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">تشخيص بكتيريا</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Diagnostic Bacteriology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105313" target="_black">7105313</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر تشخيص بكتيريا</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Diagnostic Bacteriology Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7105314</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">علم الطفيليات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Parasitology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7105315</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر علم الطفيليات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Parasitology Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7105320</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">علم الفطريات الطبي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medical Mycology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7105321</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر علم الفطريات الطبي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Medical Mycology Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7105326" target="_black">7105326</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">علم الفيروسات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Virology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7106401</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تحليل المعلومات للعلوم الصحية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Data Analysis for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7106402" target="_black">7106402</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">علم السموم البيئي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Environmental Toxicology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7106403</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم السموم السريري</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Clinical Toxicology</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7107402</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">العلاج بالفن</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Art Therapy</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7220101" target="_black">7220101</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة في الطب السريري 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Clinical Medicine 1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7220201" target="_black">7220201</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مقدمة في الطب السريري 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Clinical Medicine 2</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 1">
+7220101
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 1">
+7220101
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7220401" target="_black">7220401</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة في الطب السريري 3</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Clinical Medicine 3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 2">
+7220201
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 2">
+7220201
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7220501" target="_black">7220501</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مقدمة في الطب السريري 4</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Clinical Medicine 4</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 3">
+7220401
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 3">
+7220401
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7220601" target="_black">7220601</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة في الطب السريري 5</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Clinical Medicine 5</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 4">
+7220501
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="مقدمة في الطب السريري 4">
+7220501
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227206" target="_black">7227206</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">اخلاقيات ومهنية الصيدلة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pharmacy Ethics and Professionalism</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7227207</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تاريخ البصريات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">History of Optometry</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227208" target="_black">7227208</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">تاريخ الطب والصيدلة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">History of Medicine and Pharmacy</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7229302</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">فسيولوجيا وهندسة البصريات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Geometric &amp; Physiological Optics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7301407</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الاستعمال السريري للمضادات الحيوية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Clinical Use of Antibiotics</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="علم الأدوية 2">
+7301302
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="علم الأدوية للصيدلة 2">
+7109307
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7302301" target="_black">7302301</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مهارات التواصل والاتصال</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Communication Skills</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7303301" target="_black">7303301</a></td>
+<td bgcolor="white" valign="top" class="datafont">4</td>
+<td bgcolor="white" valign="top" class="datafont">كيمياء طبية 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medicinal Chemistry I</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 1">
+7004002
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 1">
+10231236
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء عضوية 1">
+10231231
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7303302" target="_black">7303302</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">كيمياء طبية 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Medicinal Chemistry II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء طبية 1">
+7303301
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 2">
+10231330
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 2">
+10231330
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7303406" target="_black">7303406</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">العلاج النباتي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Phytotherapy</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231213" target="_black">10231213</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">كيمياء تحليلية للعلوم الصحية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Analytical Chemistry for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية">
+10231114
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية عملي">
+10231115
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231214" target="_black">10231214</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">كيمياء تحليلية للعلوم الصحية عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Practical Analytical Chemistry for Health Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية للعلوم الصحية">
+10231213
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية للعلوم الصحية">
+10231213
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="كيمياء عامة للعلوم الصحية عملي">
+10231115
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231313" target="_black">10231313</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تحليل آلي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Instrumental Analytical Chemistry</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية للعلوم الصحية">
+7004004
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية للعلوم الصحية">
+10231213
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية">
+10231211
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231314" target="_black">10231314</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">تحليل آلي عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Practical Instrumental Analysis</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية للعلوم الصحية عملي">
+10231214
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="كيمياء تحليلية عملي">
+10231215
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="تحليل آلي">
+10231313
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="تحليل آلي">
+10231313
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231330" target="_black">10231330</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الكيمياء العضوية للعلوم الصحية 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Organic Chemistry II for Health Sciences</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 1">
+10231236
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont">10231334</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">الكيمياء العضوية للعلوم الصحية عملي 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Practical Organic Chemistry II for Health Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية عملي 1">
+10231239
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 2">
+10231330
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="الكيمياء العضوية للعلوم الصحية 2">
+10231330
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10631300" target="_black">10631300</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الابتكار وريادة الاعمال</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Innovation and Entrepreneurship</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+11011222</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الريادة والابداع</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إجباري تخصص - علوم طبية سريرية
+: عدد الساعات المطلوبة=135
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7000401" target="_black">7000401</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">وسائل البحث في الطب السريري</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Research Methods for Clinical Sciences</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7000503" target="_black">7000503</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة لمشروع البحث العلمي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Research Project</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7000603" target="_black">7000603</a></td>
+<td bgcolor="white" valign="top" class="datafont">6</td>
+<td bgcolor="white" valign="top" class="datafont">مشروع البحث العلمي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Research Project</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="مقدمة لمشروع البحث العلمي">
+7000503
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7220701</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الحماية والوقاية الآمنة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Safeguarding and Family Wellbeing</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7221401" target="_black">7221401</a></td>
+<td bgcolor="white" valign="top" class="datafont">12</td>
+<td bgcolor="white" valign="top" class="datafont">الطب الباطني</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Internal Medicine- Junior</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7221501" target="_black">7221501</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">طب الطوارىء</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Emergency Medicine</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7221601" target="_black">7221601</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">الطب الباطني المتقدم</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Internal Medicine- Senior</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+142741
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+7227401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7222401" target="_black">7222401</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">12</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الجراحة العامة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Surgery- Junior</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7222601" target="_black">7222601</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">الجراحة العامة المتقدمة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Surgery- Senior</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+142741
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+7227401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7223501" target="_black">7223501</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">12</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">طب الاطفال</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Pediatrics- Junior</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7223601" target="_black">7223601</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">طب الاطفال المتقدم</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pediatrics- Senior</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+7227401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7224401" target="_black">7224401</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">8</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">النسائية و التوليد</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Gynecology- Obsterics- Junior</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7224601" target="_black">7224601</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">النسائية والتوليد المتقدمة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Gynecology- Obstetrics- Senior</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+142741
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+7227401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="طب عظام واصابات وطوارئ جراحية">
+7225502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7225501" target="_black">7225501</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التخصصات الجراحية الاختيارية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Elective Surgery</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+أو 
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7225502" target="_black">7225502</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">طب عظام واصابات وطوارئ جراحية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Orthopedics and Traumatology, Surgical Emergencies</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7226501" target="_black">7226501</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">4</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التخصصات الباطنية الاختيارية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Elective Medicine</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7226502" target="_black">7226502</a></td>
+<td bgcolor="white" valign="top" class="datafont">8</td>
+<td bgcolor="white" valign="top" class="datafont">التخصصات الباطنية المختارة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Selected Medical Specialties</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7226503" target="_black">7226503</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">8</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">العلوم العصبية السريرية و المواضيع المتعلقة بها</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Clinical Neurosciences and Related Subjects</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227401" target="_black">7227401</a></td>
+<td bgcolor="white" valign="top" class="datafont">4</td>
+<td bgcolor="white" valign="top" class="datafont">الطب النفسي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Psychiatry</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227403" target="_black">7227403</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اقتصاديات الصحة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Health Economics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227501" target="_black">7227501</a></td>
+<td bgcolor="white" valign="top" class="datafont">5</td>
+<td bgcolor="white" valign="top" class="datafont">طب الاسرة والمجتمع</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Community and Family Medicine</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+م. س.4:
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+142741
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الطب النفسي">
+7227401
+</span></span>
+<br>
+م. س.5:
+<span class="demo">
+<span data-tooltip="طب الاطفال">
+7223501
+</span></span>
+<br>
+م. س.6:
+<span class="demo">
+<span data-tooltip="العلوم العصبية السريرية و المواضيع المتعلقة بها">
+7226503
+</span></span>
+<br>
+م. س.7:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+م. س.8:
+<span class="demo">
+<span data-tooltip="التخصصات الباطنية المختارة">
+7226502
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">70</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=7227502" target="_black">7227502</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الطب الشرعي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Forensic Medicine</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الطب الباطني">
+7221401
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+7222401
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجراحة العامة">
+142241
+</span></span>
+<br>
+م. س.3:
+<span class="demo">
+<span data-tooltip="امراض النساء والتوليد">
+142441
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="النسائية و التوليد">
+7224401
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">70</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+مساقات يمنع دراستها
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+</tbody></table>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<center>
+<table dir="ltr" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody><tr>
+<td align="center" bgcolor="#408080" class="footerfont">
+<font class="siz10x" face="arial, helvetica" color="#ffffff">
+<b>©2026 An-Najah National University - Computer Center, all rights reserved, Nablus -   Palestine</b>
+</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+
+</center></body></html>

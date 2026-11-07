@@ -1,0 +1,880 @@
+{
+  "status": "inferred_unverified",
+  "not_for_registration_eligibility": true,
+  "candidate_count": 19,
+  "candidates": [
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10211102",
+      "course_name_ar": "تفاضل وتكامل 2",
+      "status": "inferred_unverified",
+      "match_method": "same_course_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10211102",
+      "reference_course_name_ar": "تفاضل وتكامل 2",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10211101 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211101 |",
+      "proposed_code_substitutions": {
+        "10211101": "10211101"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10211102",
+        "quote": "ن | 10211102 | 3 | تفاضل وتكامل 2 | Calculus II | م. س.1: 10211101 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10211201",
+      "course_name_ar": "تفاضل وتكامل 3",
+      "status": "inferred_unverified",
+      "match_method": "same_course_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10211201",
+      "reference_course_name_ar": "تفاضل وتكامل 3",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10211102 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211102 |",
+      "proposed_code_substitutions": {
+        "10211102": "10211102"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10211201",
+        "quote": "ن | 10211201 | 3 | تفاضل وتكامل 3 | Calculus III | م. س.1: 10211102 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10211202",
+      "course_name_ar": "الرياضيات الهندسية",
+      "status": "inferred_unverified",
+      "match_method": "same_course_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10211202",
+      "reference_course_name_ar": "الرياضيات الهندسية",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10626202 | أو 10211201 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: [unmapped_reference_code:10626202] | أو 10211201 |",
+      "proposed_code_substitutions": {
+        "10211201": "10211201"
+      },
+      "unmapped_reference_codes": [
+        "10626202"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10211202",
+        "quote": "ن | 10211202 | 3 | الرياضيات الهندسية | Engineering Mathematics | م. س.1: 10626202 | أو 10211201 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10221102",
+      "course_name_ar": "فيزياء عامة 2",
+      "status": "inferred_unverified",
+      "match_method": "same_course_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10221102",
+      "reference_course_name_ar": "فيزياء عامة 2",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10221101 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10221101 |",
+      "proposed_code_substitutions": {
+        "10221101": "10221101"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10221102",
+        "quote": "ن | 10221102 | 3 | فيزياء عامة 2 | General Physics II | م. س.1: 10221101 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10221115",
+      "course_name_ar": "مختبر فيزياء عامة للهندسة",
+      "status": "inferred_unverified",
+      "match_method": "same_course_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10221115",
+      "reference_course_name_ar": "مختبر فيزياء عامة للهندسة",
+      "reference_credits": 1,
+      "target_credits": 1,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10221102 | أو متزامن: 10221102 | م. س.2: 10221101 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10221102 | أو متزامن: 10221102 | م. س.2: 10221101 |",
+      "proposed_code_substitutions": {
+        "10221102": "10221102",
+        "10221101": "10221101"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10221115",
+        "quote": "ع | 10221115 | 1 | مختبر فيزياء عامة للهندسة | General Physics Lab. for Engineering Students | م. س.1: 10221102 | أو متزامن: 10221102 | م. س.2: 10221101 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10604200",
+      "course_name_ar": "ستاتيكا",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10601110",
+      "reference_course_name_ar": "ستاتيكا",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10211101 | م. س.2: 10221101 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211101 | م. س.2: 10221101 |",
+      "proposed_code_substitutions": {
+        "10211101": "10211101",
+        "10221101": "10221101"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10601110",
+        "quote": "ن | 10601110 | 3 | ستاتيكا | Statics | م. س.1: 10211101 | م. س.2: 10221101 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620120",
+      "course_name_ar": "مشاغل هندسة نظري 2",
+      "status": "inferred_unverified",
+      "match_method": "manually_reviewed_similar_title_not_official_equivalence",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621200",
+      "reference_course_name_ar": "مشاغل هندسية 2",
+      "reference_credits": 1,
+      "target_credits": 1,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10621100 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10620110 |",
+      "proposed_code_substitutions": {
+        "10621100": "10620110"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621200",
+        "quote": "ن | 10621200 | 1 | مشاغل هندسية 2 | Engineering Workshop (2) | م. س.1: 10621100 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620122",
+      "course_name_ar": "الرسم الميكانيكي",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621213",
+      "reference_course_name_ar": "الرسم الميكانيكي",
+      "reference_credits": 2,
+      "target_credits": 1,
+      "credits_changed": true,
+      "reference_prerequisite_expression": "م. س.1: 10606102 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10606102 |",
+      "proposed_code_substitutions": {
+        "10606102": "10606102"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621213",
+        "quote": "ع | 10621213 | 2 | الرسم الميكانيكي | Mechanical Drawing | م. س.1: 10606102 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620210",
+      "course_name_ar": "ديناميكا حرارية 1",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621220",
+      "reference_course_name_ar": "ديناميكا حرارية 1",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10221101 | م. س.2: 10231101 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10221101 | م. س.2: 10231101 |",
+      "proposed_code_substitutions": {
+        "10221101": "10221101",
+        "10231101": "10231101"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621220",
+        "quote": "ن | 10621220 | 3 | ديناميكا حرارية 1 | Thermodynamics (1) | م. س.1: 10221101 | م. س.2: 10231101 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620212",
+      "course_name_ar": "مواد هندسية",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621330",
+      "reference_course_name_ar": "مواد هندسية",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10231101 | م. س.2: 10621200 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10231101 | م. س.2: 10620120 |",
+      "proposed_code_substitutions": {
+        "10231101": "10231101",
+        "10621200": "10620120"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621330",
+        "quote": "ن | 10621330 | 3 | مواد هندسية | Engineering Materials | م. س.1: 10231101 | م. س.2: 10621200 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620313",
+      "course_name_ar": "تصميم آلات 1",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621317",
+      "reference_course_name_ar": "تصميم آلات 1",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10621215 | أو 10621214 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: [unmapped_reference_code:10621215] | أو [unmapped_reference_code:10621214] |",
+      "proposed_code_substitutions": {},
+      "unmapped_reference_codes": [
+        "10621215",
+        "10621214"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621317",
+        "quote": "ن | 10621317 | 3 | تصميم آلات 1 | Machine Design (1) | م. س.1: 10621215 | أو 10621214 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620320",
+      "course_name_ar": "اهتزازات ميكانيكية",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621414",
+      "reference_course_name_ar": "اهتزازات ميكانيكية",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10621210 | م. س.2: 10211202 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: [unmapped_reference_code:10621210] | م. س.2: 10211202 |",
+      "proposed_code_substitutions": {
+        "10211202": "10211202"
+      },
+      "unmapped_reference_codes": [
+        "10621210"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621414",
+        "quote": "ن | 10621414 | 3 | اهتزازات ميكانيكية | Mechanical Vibrations | م. س.1: 10621210 | م. س.2: 10211202 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10620422",
+      "course_name_ar": "رياضيات تطبيقية للمهندسين",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621413",
+      "reference_course_name_ar": "رياضيات تطبيقية للمهندسين",
+      "reference_credits": 3,
+      "target_credits": 2,
+      "credits_changed": true,
+      "reference_prerequisite_expression": "م. س.1: 10211202 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211202 |",
+      "proposed_code_substitutions": {
+        "10211202": "10211202"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621413",
+        "quote": "ن | 10621413 | 3 | رياضيات تطبيقية للمهندسين | Applied Mathematics for Engineers | م. س.1: 10211202 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10624420",
+      "course_name_ar": "مشروع تخرج 2",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10621552",
+      "reference_course_name_ar": "مشروع تخرج (2)",
+      "reference_credits": 3,
+      "target_credits": 2,
+      "credits_changed": true,
+      "reference_prerequisite_expression": "م. س.1: 10621551 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10624410 |",
+      "proposed_code_substitutions": {
+        "10621551": "10624410"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10621552",
+        "quote": "ع | 10621552 | 3 | مشروع تخرج (2) | Graduation Project (2) | م. س.1: 10621551 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10625301",
+      "course_name_ar": "تحليلات عددية للمهندسين",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10626251",
+      "reference_course_name_ar": "تحليلات عددية للمهندسين",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10211202 | أو 10211241 | م. س.2: 10636100 | أو 10636111 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211202 | أو [unmapped_reference_code:10211241] | م. س.2: [unmapped_reference_code:10636100] | أو [unmapped_reference_code:10636111] |",
+      "proposed_code_substitutions": {
+        "10211202": "10211202"
+      },
+      "unmapped_reference_codes": [
+        "10211241",
+        "10636100",
+        "10636111"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10626251",
+        "quote": "ن | 10626251 | 3 | تحليلات عددية للمهندسين | Engineering Numerical Analysis | م. س.1: 10211202 | أو 10211241 | م. س.2: 10636100 | أو 10636111 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10632220",
+      "course_name_ar": "الاقتصاد الهندسي ودراسة الجدوى",
+      "status": "inferred_unverified",
+      "match_method": "manually_reviewed_similar_title_not_official_equivalence",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10631301",
+      "reference_course_name_ar": "الاقتصاد الهندسي ودراسات الجدوى",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10211102 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10211102 |",
+      "proposed_code_substitutions": {
+        "10211102": "10211102"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10631301",
+        "quote": "ن | 10631301 | 3 | الاقتصاد الهندسي ودراسات الجدوى | Engineering Economy and Feasibility Studies | م. س.1: 10211102 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10642380",
+      "course_name_ar": "آلات كهربائية",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10641391",
+      "reference_course_name_ar": "آلات كهربائية",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10641292 | أو 10641291 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: [unmapped_reference_code:10641292] | أو 10642383 |",
+      "proposed_code_substitutions": {
+        "10641291": "10642383"
+      },
+      "unmapped_reference_codes": [
+        "10641292"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10641391",
+        "quote": "ن | 10641391 | 3 | آلات كهربائية | Electrical Machines | م. س.1: 10641292 | أو 10641291 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10642383",
+      "course_name_ar": "دوائر كهربائية وإلكترونية",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10641291",
+      "reference_course_name_ar": "دوائر كهربائية وإلكترونية",
+      "reference_credits": 3,
+      "target_credits": 3,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10221102 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: 10221102 |",
+      "proposed_code_substitutions": {
+        "10221102": "10221102"
+      },
+      "unmapped_reference_codes": [],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10641291",
+        "quote": "ن | 10641291 | 3 | دوائر كهربائية وإلكترونية | Electrical and electronic circuits | م. س.1: 10221102 | | _ | _ | 0 | 60"
+      }
+    },
+    {
+      "target_program_id": "vehicle_engineering",
+      "target_plan_version": "2026-1",
+      "course_code": "10642384",
+      "course_name_ar": "مختبر دوائر كهربائية وإلكترونية",
+      "status": "inferred_unverified",
+      "match_method": "same_normalized_arabic_title_different_code",
+      "reference_program": "الهندسة الميكانيكية",
+      "reference_major_code": "10621",
+      "reference_plan_version": "2021-1",
+      "reference_course_code": "10641294",
+      "reference_course_name_ar": "مختبر دوائر كهربائية وإلكترونية",
+      "reference_credits": 1,
+      "target_credits": 1,
+      "credits_changed": false,
+      "reference_prerequisite_expression": "م. س.1: 10641293 | أو 10641291 |",
+      "candidate_expression_with_proposed_new_codes": "م. س.1: [unmapped_reference_code:10641293] | أو 10642383 |",
+      "proposed_code_substitutions": {
+        "10641291": "10642383"
+      },
+      "unmapped_reference_codes": [
+        "10641293"
+      ],
+      "warning_ar": "استنتاج بالمقارنة مع خطة ميكانيك أخرى، وليس متطلب تسجيل رسميًا لخطة المركبات الجديدة.",
+      "index_as_official": false,
+      "exclude_from_default_rag_index": true,
+      "reference_citation": {
+        "document_id": "zajel_10621_2021_1",
+        "filename": "mechanical_engineering_10621_2021_1.htm",
+        "page": null,
+        "article": "المساق 10641294",
+        "quote": "ع | 10641294 | 1 | مختبر دوائر كهربائية وإلكترونية | Electrical and Electronic Circuits Lab. | م. س.1: 10641293 | أو 10641291 | | _ | _ | 0 | 60"
+      }
+    }
+  ],
+  "remaining_courses": [
+    {
+      "course_code": "10032103",
+      "course_name_ar": "لغة إنجليزية عامة استدراكي",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000109",
+      "course_name_ar": "خدمة المجتمع والتنمية المستدامة",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000114",
+      "course_name_ar": "دراسات فلسطينية",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000122",
+      "course_name_ar": "لغة عربية",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000123",
+      "course_name_ar": "الثقافة الإسلامية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000124",
+      "course_name_ar": "اللغة الإنجليزية الهندسية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "11000129",
+      "course_name_ar": "مقدمة في الذكاء الاصطناعي وعلم البيانات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10211101",
+      "course_name_ar": "تفاضل وتكامل 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10221101",
+      "course_name_ar": "فيزياء عامة 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10231101",
+      "course_name_ar": "كيمياء عامة 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10606102",
+      "course_name_ar": "رسم هندسي",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620110",
+      "course_name_ar": "مشاغل هندسة نظري 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620111",
+      "course_name_ar": "مشاغل هندسة عملي 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620121",
+      "course_name_ar": "مشاغل هندسة عملي 2",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620222",
+      "course_name_ar": "أسس التصميم الميكانيكي",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620321",
+      "course_name_ar": "مختبر ميكانيكا الموائع والعلوم الحرارية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10620323",
+      "course_name_ar": "نظرية الحركة للآلات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624100",
+      "course_name_ar": "الأخلاقيات والسلامة المهنية في هندسة المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624210",
+      "course_name_ar": "ديناميكا المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624260",
+      "course_name_ar": "إلكترونيات القوى للمركبات الكهربائية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624264",
+      "course_name_ar": "أساسيات كهرباء المركبات والتحكم",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624318",
+      "course_name_ar": "ديناميكا الموائع",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624320",
+      "course_name_ar": "أساسيات انتقال الحرارة",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624322",
+      "course_name_ar": "تصميم عناصر المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624360",
+      "course_name_ar": "محركات الاحتراق الداخلي",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624361",
+      "course_name_ar": "أنظمة إدارة المحرك",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624362",
+      "course_name_ar": "القيادة الكهربائية في المركبات الكهربائية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624363",
+      "course_name_ar": "التطبيقات البرمجية والذكاء الاصطناعي في هندسة المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624364",
+      "course_name_ar": "أنظمة المركبات الكهربائية والهجينة",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624400",
+      "course_name_ar": "التدريب العملي 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624410",
+      "course_name_ar": "مشروع تخرج 1",
+      "status": "reference_row_has_no_listed_prerequisite",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624460",
+      "course_name_ar": "أنظمة السلامة والراحة في المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624462",
+      "course_name_ar": "مختبر أنظمة إدارة المحرك",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624463",
+      "course_name_ar": "أنظمة نقل القدرة في المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624466",
+      "course_name_ar": "مختبر أنظمة المركبات الكهربائية والهجينة",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624467",
+      "course_name_ar": "إدارة لوجستيات شركات السيارات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624468",
+      "course_name_ar": "مختبر أنظمة المركبات",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10624470",
+      "course_name_ar": "مختبر صيانة المركبات وتشخيص الأعطال",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10625300",
+      "course_name_ar": "مهارات أساسية في البحث العلمي والكتابة الفنية",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10632210",
+      "course_name_ar": "أساليب تحليل كمي 1",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    },
+    {
+      "course_code": "10638100",
+      "course_name_ar": "برمجة حاسوب - بايثون",
+      "status": "no_sufficient_analogy",
+      "confirmed_new_plan_prerequisite": null
+    }
+  ]
+}

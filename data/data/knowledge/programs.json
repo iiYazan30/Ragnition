@@ -1,0 +1,133 @@
+[
+  {
+    "program_id": "computer_engineering",
+    "program_name_ar": "هندسة الحاسوب",
+    "major_code": "10636",
+    "plan_version": "2021-1",
+    "total_required_credits": 162,
+    "credit_groups": [
+      {
+        "name_ar": "إجباري جامعة",
+        "required_credits": 19
+      },
+      {
+        "name_ar": "إجباري تخصص",
+        "required_credits": 126
+      },
+      {
+        "name_ar": "إختياري تخصص",
+        "required_credits": 15
+      },
+      {
+        "name_ar": "مساق حر",
+        "required_credits": 2
+      }
+    ],
+    "course_rows": 125,
+    "course_coverage": "all_rows_in_supplied_public_html",
+    "source_document_id": "zajel_10636_2021_1",
+    "source_filename": "computer_engineering_10636_2021_1.htm",
+    "plan_duration_years": null,
+    "duration_note": "Do not derive duration from credits alone."
+  },
+  {
+    "program_id": "medicine",
+    "program_name_ar": "الطب البشري",
+    "major_code": "10702",
+    "plan_version": "2025-1",
+    "total_required_credits": 266,
+    "credit_groups": [
+      {
+        "name_ar": "إجباري جامعة",
+        "required_credits": 16
+      },
+      {
+        "name_ar": "إختياري جامعة",
+        "required_credits": 3
+      },
+      {
+        "name_ar": "إجباري تخصص - علوم طبية أساسية",
+        "required_credits": 87
+      },
+      {
+        "name_ar": "إختياري تخصص - المرحلة الأولى",
+        "required_credits": 25
+      },
+      {
+        "name_ar": "إجباري تخصص - علوم طبية سريرية",
+        "required_credits": 135
+      }
+    ],
+    "course_rows": 123,
+    "course_coverage": "all_rows_in_supplied_public_html",
+    "source_document_id": "zajel_10702_2025_1",
+    "source_filename": "medicine_10702_2025_1.htm",
+    "plan_duration_years": null,
+    "duration_note": "Do not derive duration from credits alone."
+  },
+  {
+    "program_id": "physical_education",
+    "program_name_ar": "التربية الرياضية",
+    "major_code": "11350",
+    "plan_version": "2025-1",
+    "total_required_credits": 131,
+    "credit_groups": [
+      {
+        "name_ar": "إجباري جامعة",
+        "required_credits": 19
+      },
+      {
+        "name_ar": "إجباري تخصص نظري",
+        "required_credits": 42
+      },
+      {
+        "name_ar": "إجباري تخصص عملي",
+        "required_credits": 60
+      },
+      {
+        "name_ar": "إختياري تخصص",
+        "required_credits": 10
+      }
+    ],
+    "course_rows": 64,
+    "course_coverage": "all_rows_in_supplied_public_html",
+    "source_document_id": "zajel_11350_2025_1",
+    "source_filename": "physical_education_11350_2025_1.htm",
+    "plan_duration_years": null,
+    "duration_note": "Do not derive duration from credits alone."
+  },
+  {
+    "program_id": "vehicle_engineering",
+    "program_name_ar": "الهندسة الميكانيكية - فرعي هندسة المركبات",
+    "major_code": "10624",
+    "plan_version": "2026-1",
+    "total_required_credits": 137,
+    "credit_groups": [
+      {
+        "name_ar": "إجباري جامعة",
+        "required_credits": 12
+      },
+      {
+        "name_ar": "إجباري تخصص",
+        "required_credits": 116
+      },
+      {
+        "name_ar": "اختياري تخصص",
+        "required_credits": 9
+      }
+    ],
+    "course_rows": 60,
+    "course_coverage": "60_required_course_rows_from_prior_pack; elective_options_missing",
+    "source_document_id": "najah_vehicle_plan_2026_1_user_screenshots_extract",
+    "source_filename": "Mechanical_Vehicle_Engineering_2026_1_Extract.pdf",
+    "plan_duration_years": 4,
+    "duration_evidence": "user_declared_not_independently_verified_in_supplied_source",
+    "prerequisites_available_in_new_plan": false,
+    "known_conflicts": [
+      "The separate free-course panel displays 2 credits; 12+116+9 already equals the displayed total 137. Do not silently convert total to 139 or resolve the free-course requirement.",
+      "Elective options comprising 9 required credits are not supplied.",
+      "The latest one-page screenshot shows only the upper part of the course list."
+    ],
+    "credit_components_source": "prior_pack_transcription_confirmed_header_and_visible_groups_in_latest_screenshot"
+  }
+]

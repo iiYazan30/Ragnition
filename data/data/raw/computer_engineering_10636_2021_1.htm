@@ -1,0 +1,2600 @@
+
+<!-- saved from url=(0046)https://zajelbs.najah.edu/servlet/UniCurricula -->
+<html dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<meta http-equiv="Content-Language" content="ar-sa">
+
+<style>
+.headerfont { font-size : 20px }
+.datafont   { font-size : 15px }
+.mainfont   { font-size : 13px }
+.footerfont { font-size : 10px }
+</style>
+<style>
+a:hover {
+  text-decoration: none;
+}
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  white-space: normal;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:    
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:         
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+  white-space: normal;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+  white-space: normal;
+ white-space: pre-wrap; 
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+}
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 250px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: normal;
+ white-space: pre-wrap; 
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+}
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform:    translateX(-12px);
+  transform:         translateX(-12px); 
+}
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform:    translateY(12px);
+  transform:         translateY(12px); 
+}
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px);
+}
+.tooltip-left:before,
+.tooltip-right:before {
+ top: 3px;
+}
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+</style>
+<style></style></head>
+<body topmargin="10" rightmargin="20" link="#000000" vlink="#000000" alink="#000000">
+<center>
+<table width="100%" cellspacing="0" cellpadding="0" borders="0">
+<tbody><tr>
+<td valign="middle" colspan="2" align="center" bgcolor="#DDEEEE" class="mainfont">
+<img border="0" src="./UniCurricula_files/logo.gif" height="100" width="100" alt="NNU Logo" align="middle">
+<a style="TEXT-DECORATION: none" href="http://zajel.najah.edu/"> <b> &nbsp;<span style="font-size:22px;font-family:DroidKufiRegular"> زاجل - البرنامج الأكاديمي لجامعة النجاح الوطنية 
+</span></b></a><b>
+</b></td>
+</tr>
+ <tr><td colspan="2" bgcolor="#008088" height="20" class="mainfont">
+&nbsp;&nbsp;<font color="yellow">
+November 7, 2026
+ </font> </td></tr>
+ <tr><td colspan="2" bgcolor="#DDEEEE" height="1" class="mainfont"> </td></tr>
+</tbody></table>
+<div align="center" class="headerfont"><br>
+ الخطط الدراسية 
+</div>
+<br><table border="0"><tbody><tr>
+<form action="https://zajelbs.najah.edu/servlet/UniCurricula" method="Post" name="f"></form>
+<td class="datafont"> الرجاء ادخال رمز أو اسم التخصص:  </td>
+<td class="datafont"><input type="text" name="majVal" size="30"></td>
+<td class="datafont"><input type="submit" value="بحث"></td>
+
+</tr></tbody></table>
+<script language="Javascript">
+<!--
+document.f.majVal.focus();
+//-->
+</script>
+<br> <table border="0" cellpadding="5" cellspacing="1">
+<tbody><tr>
+<td bgcolor="#F2F6F7" nowrap="" class="datafont">رمز التخصص: <b>10636</b>    &#8195; <font color="red">Credit Hour</font></td>
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" align="right" lan="en" dir="ltr" nowrap="" class="datafont"> التخصص: <b>
+هندسة الحاسوب من كلية الهندسة
+</b></td>
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" align="left" lan="en" dir="ltr" nowrap="" class="datafont"> Major:<b>
+Computer Engineering by the Faculty of Engineering &amp; Information Technology
+</b></td>
+</tr>
+<tr>
+<form action="https://zajelbs.najah.edu/servlet/UniCurricula" method="get"></form>
+<input type="hidden" name="majVal" value="10636">
+<td bgcolor="#F2F6F7" nowrap="" class="datafont"> الخطط الدراسية المتوفرة: 
+<select size="1" name="curVal">
+<option value="2021-1"> &nbsp;&nbsp;&nbsp; 
+2021-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2020-1"> &nbsp;&nbsp;&nbsp; 
+2020-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2018-1"> &nbsp;&nbsp;&nbsp; 
+2018-1 &nbsp;&nbsp;&nbsp; </option>
+<option value="2013-1"> &nbsp;&nbsp;&nbsp; 
+2013-1 &nbsp;&nbsp;&nbsp; </option>
+</select>
+<input type="submit" value="عرض">
+</td>
+
+</tr>
+<tr>
+<td bgcolor="#F2F6F7" class="datafont"><br><font color="maroon"><b>
+الخطة: سنة  2021 - فصل 1
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+مجموع الساعات المطلوبة:</b></font><b>
+<a href="https://zajelbs.najah.edu/servlet/UniCurricula?majVal=10636&amp;curVal=2021-1&amp;dispOpt=0">
+162</a></b></td>
+</tr>
+</tbody></table>
+<br><table border="0" cellpadding="6" cellspacing="3" style="-moz-box-shadow: 5px 5px 2px #888;-webkit-box-shadow: 5px 5px 2px #888;box-shadow: 5px 5px 2px #888">
+<tbody><tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إجباري جامعة
+: عدد الساعات المطلوبة=19
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10032100" target="_black">10032100</a></td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">انجليزي استدراكي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Remedial English</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000101" target="_black">11000101</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">ثقافة إسلامية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Islamic Culture</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000102" target="_black">11000102</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">لغة عربية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Arabic Language</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000103" target="_black">11000103</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اللغة الانجليزية 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">English Language I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000105" target="_black">11000105</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">دراسات فلسطينية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Palestinian Studies</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000109" target="_black">11000109</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">خدمة المجتمع و التنمية المستدامة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Community Service and Sustainable Development</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+11000108</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">خدمة مجتمع</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">32</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000117" target="_black">11000117</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مهارات قيادة واتصال</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Leadership and Communication Skills</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000128" target="_black">11000128</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مهارات الحاسوب والذكاء الاصطناعي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Skills and Artificial Intelligence</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+11000126</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">علم ومهارات الحاسوب</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000322" target="_black">11000322</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">لغة انجليزيّة (2)</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">English Language -II</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إجباري تخصص
+: عدد الساعات المطلوبة=126
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10211101" target="_black">10211101</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">تفاضل وتكامل 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Calculus I</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10211102" target="_black">10211102</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تفاضل وتكامل 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Calculus II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تفاضل وتكامل 1">
+10211101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10211201" target="_black">10211201</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">تفاضل وتكامل  3</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Calculus III</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تفاضل وتكامل 2">
+10211102
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10211202" target="_black">10211202</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الرياضيات الهندسية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Engineering Mathematics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مبادئ حسابات الهندسة الكيميائية">
+10626202
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="تفاضل وتكامل  3">
+10211201
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10216230" target="_black">10216230</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الاحصاء والاحتمالات للمهندسين</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Probability and Statistics for Engineers</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10221101" target="_black">10221101</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">فيزياء عامة  1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Physics I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10221102" target="_black">10221102</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">فيزياء عامة  2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Physics II</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="فيزياء عامة  1">
+10221101
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10221115" target="_black">10221115</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر فيزياء عامة للهندسة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Physics Lab. for Engineering Students</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="فيزياء عامة  2">
+10221102
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="فيزياء عامة  2">
+10221102
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="فيزياء عامة  1">
+10221101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231101" target="_black">10231101</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">كيمياء عامه 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">General Chemistry 1</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10231107" target="_black">10231107</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">كيمياء عامة عملي 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Chemistry 1 Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="كيمياء عامه 1">
+10231101
+</span></span>
+<br>
+أو متزامن:
+<span class="demo">
+<span data-tooltip="كيمياء عامه 1">
+10231101
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10606102" target="_black">10606102</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">رسم هندسي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Engineering Drawing</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10626251" target="_black">10626251</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تحليلات عددية للمهندسين</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Engineering Numerical Analysis</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="الرياضيات الهندسية">
+10211202
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الجبر الخطي 1">
+10211241
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="برمجة حاسوب-بايثون">
+10636100
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="برمجة الحاسوب">
+10636111
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636111" target="_black">10636111</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">برمجة الحاسوب</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Computer Programming</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636211" target="_black">10636211</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تركيب بيانات وخوارزميات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Data Structure and Algorithms</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="برمجة الحاسوب">
+10636111
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+10647211</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تركيب البيانات والخوارزميات</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636212" target="_black">10636212</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">البرمجة باستخدام الكيانات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Object Oriented Programming</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تركيب بيانات وخوارزميات">
+10636211
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+10647212</td>
+<td bgcolor="white" valign="top" class="datafont">البرمجة باستخدام الكيانات</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636215" target="_black">10636215</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">رياضيات منفصلة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Discrete Mathematics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="برمجة الحاسوب">
+10636111
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636221" target="_black">10636221</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">تصميم دوائر رقمية 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Circuits Design 1</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636291" target="_black">10636291</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر تصميم دوائر رقمية 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Digital Circuits  Design 1 Lab.</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية 1">
+10636221
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636304" target="_black">10636304</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">التدريب العملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Internship</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">120</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636312" target="_black">10636312</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">هندسة البرمجيات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Software Engineering</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636315" target="_black">10636315</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">نظم قواعد البيانات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Database Systems</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10647212
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636213
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636316" target="_black">10636316</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">برمجة الويب</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Web Programming</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="نظم قواعد البيانات">
+10636315
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636318" target="_black">10636318</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">معالجة الصور الرقمية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Image Processing</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636213
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="تركيب بيانات وخوارزميات">
+10636211
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636321" target="_black">10636321</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تصميم دوائر رقمية  2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Digital Circuits Design II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية 1">
+10636221
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636322" target="_black">10636322</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">المعالجات الدقيقة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Microprocessors</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية 1">
+10636221
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636323" target="_black">10636323</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">عمارة الحاسوب 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Architecture I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="المعالجات الدقيقة">
+10636322
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636332" target="_black">10636332</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الدوائر الالكترونية الرقمية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Electronic Circuits</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية  2">
+10636321
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="دوائر الكترونية 1">
+10641214
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636351" target="_black">10636351</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">اتصالات الحاسوب والبيانات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Data and Computer Communication</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تحليل الانظمة والاشارات">
+10641373
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636391" target="_black">10636391</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر تصميم دوائر رقمية 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Circuits Design II Lab</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية  2">
+10636321
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636392" target="_black">10636392</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر المعالجات الدقيقة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Microprocessors Lab</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="المعالجات الدقيقة">
+10636322
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636410" target="_black">10636410</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">مهارات التفكير النقدي والبحث</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Critical Thinking and Research Skills</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="اللغة الانجليزية 1">
+11000103
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636423" target="_black">10636423</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">عمارة الحاسوب 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Architecture II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636426" target="_black">10636426</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">المتحكمات الدقيقة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Microcontrollers</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية  2">
+10636321
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية (1)">
+10226342
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636451" target="_black">10636451</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">نظم التشغيل</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Operating Systems</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636454" target="_black">10636454</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">شبكات الحاسوب 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Computer Networks I</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="اتصالات الحاسوب والبيانات">
+10636351
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636455" target="_black">10636455</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">شبكات الحاسوب 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Networks  II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="شبكات الحاسوب 1">
+10636454
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636475" target="_black">10636475</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">إدارة أعمال تكنولوجيا المعلومات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">IT Business Management</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="هندسة البرمجيات">
+10636313
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="هندسة البرمجيات">
+10636312
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636493" target="_black">10636493</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر تصميم الكمبيوتر</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Design Lab</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636496" target="_black">10636496</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر المتحكمات الدقيقة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Microcontrollers Lab</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="المتحكمات الدقيقة">
+10636426
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636581" target="_black">10636581</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مشروع تخرج 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Graduation Project I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مهارات التفكير النقدي والبحث">
+10636410
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">120</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636582" target="_black">10636582</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">مشروع تخرج 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Graduation Project II</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="مهارات التفكير النقدي والبحث">
+10636410
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">120</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636594" target="_black">10636594</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مختبر الشبكات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Networks Lab</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="شبكات الحاسوب 1">
+10636454
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641211" target="_black">10641211</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">دوائر كهربائية1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Electrical Circuits 1</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="فيزياء عامة  2">
+10221102
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641214" target="_black">10641214</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">دوائر الكترونية 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Electronic Circuits 1</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="دوائر كهربائية1">
+10641211
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641215" target="_black">10641215</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر دوائر كهربائية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Electrical Circuits Lab</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="دوائر كهربائية1">
+10641211
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641313" target="_black">10641313</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">دوائر الكترونية 2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Electronic Circuits 2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="دوائر الكترونية 1">
+10641214
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641314" target="_black">10641314</a></td>
+<td bgcolor="white" valign="top" class="datafont">1</td>
+<td bgcolor="white" valign="top" class="datafont">مختبر دوائر الكترونية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Electronic Circuits Lab</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="دوائر الكترونية 1">
+10641214
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10641373" target="_black">10641373</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تحليل الانظمة والاشارات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Systems &amp; Signal Analysis</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="دوائر كهربائية1">
+10641211
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="الكترونيات 1">
+10221231
+</span></span>
+<br>
+م. س.2:
+<span class="demo">
+<span data-tooltip="دوائر كهربائية1">
+10641211
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="فيزياء رياضية 1">
+10221253
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11032102" target="_black">11032102</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الانجليزية في مكان العمل</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">English in the Workplace</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="لغة انجليزيّة (2)">
+11000322
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">95</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+إختياري تخصص
+: عدد الساعات المطلوبة=15
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636305" target="_black">10636305</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">التدريب العملي 2</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Internship II</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">120</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636314" target="_black">10636314</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الخوارزميات وحسابات التعقيد</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Algorithms and Computational Complexity</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تركيب بيانات وخوارزميات">
+10636211
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636415" target="_black">10636415</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">نظم قواعد البيانات المتقدمة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Advanced Database Systems</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="نظم قواعد البيانات">
+10636315
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636416</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تركيب المترجمات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Compiler Construction</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636417" target="_black">10636417</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الذكاء الاصطناعي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Artificial Intelligence and Machine Learning</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636418</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">رسوم الحاسوب</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Computer Graphics</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636213
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636422</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">معالجات دقيقة متقدمة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Advanced Microprocessors</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="المعالجات الدقيقة">
+10636322
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636430" target="_black">10636430</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تنقيب البيانات والتعلم الالي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Data Mining and Machine Learning</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636456" target="_black">10636456</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">أنظمة التشغيل الموزعة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Distributed Operating Systems</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="نظم التشغيل">
+10636451
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636464</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مواضيع خاصة 1</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Special Topics I</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636511</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">أمن المعلومات والشبكات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Information and Network Security</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="شبكات الحاسوب 1">
+10636454
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636512" target="_black">10636512</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">هندسة برمجيات متقدمة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Advanced Software Engineering</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="هندسة البرمجيات">
+10636313
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="هندسة البرمجيات">
+10636312
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636513</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">الحوسبة المتنقلة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Mobile Computing</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636213
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636514</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">برمجة ويب متقدمة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Advanced Web Programming</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="برمجة الويب">
+10636316
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636521</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">مكونات الحاسوب والتداخل</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Computer Components and Interfacing</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636523</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الحوسبة المتوازية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Parallel Processing</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 2">
+10636423
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636525</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">أنظمة الزمن الحقيقي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Real-time Systems</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636526</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">حوسبة استيعاب الأخطاء</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Fault Tolerant Computing</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636528</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">التحكم الرقمي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Control</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية  2">
+10636321
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636554" target="_black">10636554</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مواضيع خاصة  في الشبكات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Special Topics in Networks</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="شبكات الحاسوب 1">
+10636454
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636563</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">تطبيقات الوسائط المتعددة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Multimedia Applications</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636213
+</span></span>
+<br>أو
+<span class="demo">
+<span data-tooltip="البرمجة باستخدام الكيانات">
+10636212
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10636564</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مواضيع خاصة  2</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Special Topics II</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10636567</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">التحقق من الدوائر التكاملية الموسعة وتصميمها</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">VLSI Design Verification</td>
+<td bgcolor="white" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="تصميم دوائر رقمية  2">
+10636321
+</span></span>
+<br>
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10636568" target="_black">10636568</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الدوائر التكاملية الموسعة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">VLSI</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+م. س.1:
+<span class="demo">
+<span data-tooltip="عمارة الحاسوب 1">
+10636323
+</span></span>
+<br>
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+مساق حر
+: عدد الساعات المطلوبة=2
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7303311</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">النباتات الطبيه في فلسطين</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Medicinal Plants in Palestine</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7303312</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مواد التجميل والمجتمع</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Cosmetic Products and Community</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">7303433</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">الصيدلة والمجتمع</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Pharmacy &amp; Society</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">7404111</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">صحة الأسرة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Family Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10311197" target="_black">10311197</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">اللغة الفرنسية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">French Language</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10805107</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الثقافة النفسية في حياتنا المعاصرة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Psychological Culture in Our Recent Life</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">10816001</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">التخطيط والتنمية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Planning and Development</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">10871112</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الثقافة المالية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Financial Literacy</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=10878415" target="_black">10878415</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">التسويق الرقمي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Digital Marketing</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000111" target="_black">11000111</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">القدس</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Jerusalem</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000112" target="_black">11000112</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مكافحة الفساد : التحديات و الحلول</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Fighting Corruption : Challenges and Solutions</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000118</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الصحة العامة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Public Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000142" target="_black">11000142</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">نظام الأسرة في الاسلام</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Family System in Islam</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000143</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مبادىء العقيدة الاسلامية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Principles of Religious Observances</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000144" target="_black">11000144</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">السيرة النبوية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Fiqh of Siyra</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000151</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مبادئ عامة في الاداره</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">General Principles in Administration</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000152</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مقدمة في المناظرات</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Debate</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000153</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مقدمة في المناظرات</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Debate</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000155</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">السموم والوقاية منها</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Poison Prevention</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000156</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مبادئ الاستثمار</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Investment Principles</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000157</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مبادئ في التسويق والبيع الشخصي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Principles of Marketing  and Personal Selling</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000158</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الأدوية والمجتمع</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Medications and Community</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000160</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">تكنولوجيا الطاقة والمجتمع</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Energy Technology and Society</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000163</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التغذية والصحة</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Nutrition and Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000166</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">الوراثة والمجتمع</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Genetics and Society</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000167</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">التكيف النفسي الجامعي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">University Psychological Adaptation</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000168</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مبادىء السلامة المهنية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Principles  of Ocupational Saftey</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000169" target="_black">11000169</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">تقييم المخاطر وادارتها</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Risk Assessment and Management</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000173</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">لغة الاشارة</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Sign Language</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000175</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الديمقراطية و حقوق الانسان و القانون الدولي الإنساني</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Democracy, Human Rights &amp; International Human Rights</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000176</td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">القانون و المجتمع</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Law and Society</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000254" target="_black">11000254</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">الرياضه و الصحه</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Sports and Health</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000255" target="_black">11000255</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">سباحة عملي</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Practical Swimming</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000331</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مهارات المحادثة في اللغة الإنجليزية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">English Conversation Skills</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont">11000332</td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">مهارات الكتابة في اللغة الإنجليزية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">English Writing Skills</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11000333</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">فن الكتابة والتعبير</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">The Art of Writing and Expressing</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11000334" target="_black">11000334</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مسارات تاريخية وسياحية</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Historical and Tourist Tracks</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11101234</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">3</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">حقوق الإنسان و النوع الاجتماعي</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Human Rights and Gender</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11201101" target="_black">11201101</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">مدخل إلى علم الموسيقى</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Musicology</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ن </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11201102" target="_black">11201102</a></td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">مدخل إلى التربية الموسيقية</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Introduction to Music Education</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ن </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11201103" target="_black">11201103</a></td>
+<td bgcolor="white" valign="top" class="datafont">2</td>
+<td bgcolor="white" valign="top" class="datafont">الفلكلور الموسيقي الفلسطيني</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Palestinian Music Folklore</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="#FBECEB" valign="top" class="datafont"> ع </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">11201163</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">2</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">جوقة و انشاد</td>
+<td bgcolor="#FBECEB" valign="top" lan="en" dir="ltr" class="datafont">Choir</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">
+_ </td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">_</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">0</td>
+<td bgcolor="#FBECEB" valign="top" class="datafont">60</td>
+</tr>
+<tr>
+<td bgcolor="white" valign="top" class="datafont"> ع </td>
+<td bgcolor="white" valign="top" class="datafont"><a href="https://zajelbs.najah.edu/servlet/materials?b=num&amp;var=11221102" target="_black">11221102</a></td>
+<td bgcolor="white" valign="top" class="datafont">3</td>
+<td bgcolor="white" valign="top" class="datafont">سيراميك 1</td>
+<td bgcolor="white" valign="top" lan="en" dir="ltr" class="datafont">Ceramics 1</td>
+<td bgcolor="white" valign="top" class="datafont">
+</td>
+<td bgcolor="white" valign="top" class="datafont">
+_ </td>
+<td bgcolor="white" valign="top" class="datafont">_</td>
+<td bgcolor="white" valign="top" class="datafont">0</td>
+<td bgcolor="white" valign="top" class="datafont">60</td>
+</tr>
+<tr><td colspan="10" class="datafont" bgcolor="#F2F6F7">
+مساقات يمنع دراستها
+</td></tr>
+<tr bgcolor="#F2F6F7">
+<td class="datafont">  &nbsp; 
+</td><th class="datafont">  رقم المساق </th>
+<th class="datafont">  س.م </th>
+<th class="datafont">  اسم المساق </th>
+<th class="datafont">  &nbsp; </th>
+<th class="datafont">  المتطلبات السابقة </th>
+<th class="datafont">  رقم المساق المكافيء </th>
+<th class="datafont">  اسم المساق المكافيء </th>
+<th class="datafont">  متطلب انهاء  س.م</th>
+<th class="datafont">  ع. النجاح </th>
+</tr>
+</tbody></table>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<div class="datafont"> &nbsp; </div>
+<center>
+<table dir="ltr" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody><tr>
+<td align="center" bgcolor="#408080" class="footerfont">
+<font class="siz10x" face="arial, helvetica" color="#ffffff">
+<b>©2026 An-Najah National University - Computer Center, all rights reserved, Nablus -   Palestine</b>
+</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+
+</center></body></html>

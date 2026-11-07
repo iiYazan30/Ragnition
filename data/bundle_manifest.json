@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CODEX_STEP_1_INGESTION.md",
+    "bytes": 4746,
+    "sha256": "f7b310852f4c32ef58deabd7f1e20e4eeb94aea19ec29c45eefd8cd655d78766"
+  },
+  {
+    "path": "README_AR.md",
+    "bytes": 4993,
+    "sha256": "05c30331ae2e2379037d91199710b0f6430f25eb919eb6228f70289114b99876"
+  },
+  {
+    "path": "data/knowledge/courses.jsonl",
+    "bytes": 382412,
+    "sha256": "4f5ec4760d717cd9fa7cfef0d9b88caa543ed01e8edbfe6fd617d7039609c131"
+  },
+  {
+    "path": "data/knowledge/programs.json",
+    "bytes": 4334,
+    "sha256": "96a2d81c4d21265566be7200cd40777040641433dc8dead811c0acd1f64afe94"
+  },
+  {
+    "path": "data/knowledge/sources.json",
+    "bytes": 1794,
+    "sha256": "b6523dbf64e09d586e856d354016e4a1909dcd02700f78d42f15bc9204e9a679"
+  },
+  {
+    "path": "data/raw/Mechanical_Vehicle_Engineering_2026_1_Extract.pdf",
+    "bytes": 49345,
+    "sha256": "7a4713d7745797e3dc5529d68e0737329f40e971508e64adf523f4f4752272f2"
+  },
+  {
+    "path": "data/raw/computer_engineering_10636_2021_1.htm",
+    "bytes": 110176,
+    "sha256": "8c1db176e4de0a513171c8ddbe1912721589d37801caf5c08dbb16aacd4cd2c6"
+  },
+  {
+    "path": "data/raw/dlyl_ltlb_25.pdf",
+    "bytes": 36140747,
+    "sha256": "a444e530e1b5948fc935e9b797283a65a4ce8938a6111301cc3f7bff85de7cc2"
+  },
+  {
+    "path": "data/raw/medicine_10702_2025_1.htm",
+    "bytes": 122232,
+    "sha256": "a94a6553ea1efac78a3e564ec9d3646851fc0bc7d08400228a57cf05a37b20f7"
+  },
+  {
+    "path": "data/raw/physical_education_11350_2025_1.htm",
+    "bytes": 59764,
+    "sha256": "b39c0bcc35ff33e3f977ada19526c5dd0ac99b1874840237a6d0ee552494056f"
+  },
+  {
+    "path": "reference_only/academic_rules_prior_pack.jsonl",
+    "bytes": 111113,
+    "sha256": "fe106d587b311e8a777e568e5ae538fa2063e95006518291a1eae6ffadc8191c"
+  },
+  {
+    "path": "reference_only/mechanical_engineering_10621_2021_1.htm",
+    "bytes": 115143,
+    "sha256": "c2869f77a900cf5857132f6d7f5db0bf948dd22239736d252c945ac9c4b59837"
+  },
+  {
+    "path": "reference_only/mechanical_reference_courses.json",
+    "bytes": 152233,
+    "sha256": "3e400c3ef3d9df63274fc0fb68422da5755f1b62f122b77c7060e07c5408ed36"
+  },
+  {
+    "path": "reference_only/mechanical_reference_program.json",
+    "bytes": 845,
+    "sha256": "40c32b88ea81a1ad52f8167e908737d8d28ed138b9c1092b66de070653ed3be8"
+  },
+  {
+    "path": "reference_only/vehicle_prerequisite_candidates.json",
+    "bytes": 39219,
+    "sha256": "d9a98cb13601a2a9927234651fb8aba3e483b411f9b4087f5a96311d6fdcd33a"
+  },
+  {
+    "path": "validation_summary.json",
+    "bytes": 716,
+    "sha256": "e307130d73d66431c614075a0afad0bd52100ee15fa874535faf3c33617e8e62"
+  }
+]

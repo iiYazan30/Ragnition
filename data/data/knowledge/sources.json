@@ -1,0 +1,42 @@
+[
+  {
+    "document_id": "zajel_10636_2021_1",
+    "filename": "computer_engineering_10636_2021_1.htm",
+    "relative_path": "data/raw/computer_engineering_10636_2021_1.htm",
+    "source_type": "official_public_zajel_html_saved_by_user",
+    "index_policy": "use_normalized_course_rows_once",
+    "encoding": "windows-1256"
+  },
+  {
+    "document_id": "zajel_10702_2025_1",
+    "filename": "medicine_10702_2025_1.htm",
+    "relative_path": "data/raw/medicine_10702_2025_1.htm",
+    "source_type": "official_public_zajel_html_saved_by_user",
+    "index_policy": "use_normalized_course_rows_once",
+    "encoding": "windows-1256"
+  },
+  {
+    "document_id": "zajel_11350_2025_1",
+    "filename": "physical_education_11350_2025_1.htm",
+    "relative_path": "data/raw/physical_education_11350_2025_1.htm",
+    "source_type": "official_public_zajel_html_saved_by_user",
+    "index_policy": "use_normalized_course_rows_once",
+    "encoding": "windows-1256"
+  },
+  {
+    "document_id": "najah_vehicle_plan_2026_1_user_screenshots_extract",
+    "filename": "Mechanical_Vehicle_Engineering_2026_1_Extract.pdf",
+    "relative_path": "data/raw/Mechanical_Vehicle_Engineering_2026_1_Extract.pdf",
+    "source_type": "derived_transcription_pdf_from_prior_user_pack_not_original_university_pdf",
+    "index_policy": "use_normalized_vehicle_rows_once; preserve_derived_source_label; do_not_index_as_verified_prerequisites"
+  },
+  {
+    "document_id": "najah_student_guide_2026_2027",
+    "filename": "dlyl_ltlb_25.pdf",
+    "relative_path": "data/raw/dlyl_ltlb_25.pdf",
+    "source_type": "original_university_student_guide_pdf",
+    "edition": "2026/2027",
+    "page_count": 135,
+    "index_policy": "extract_from_original_pdf_page_by_page; actual_one_based_pdf_pages; preserve_program_and_phase_scope"
+  }
+]
