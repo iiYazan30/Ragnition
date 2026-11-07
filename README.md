@@ -4,6 +4,34 @@ API مرشد أكاديمي عربي مع إدخال محلي، واسترجاع
 
 النطاق الحالي: هندسة الحاسوب 10636/2021-1، الطب البشري 10702/2025-1، التربية الرياضية 11350/2025-1، والهندسة الميكانيكية فرعي هندسة المركبات 10624/2026-1. مصدر المركبات تفريغ مشتق وتغطيته جزئية.
 
+## النشر على Render
+
+أنشئ خدمتين من المستودع نفسه، مع إبقاء `backend/` و`requirements.txt` في الجذر وملفات الواجهة في `frontend/`. يحدد `.python-version` إصدار Python إلى `3.14.4`.
+
+### Backend Web Service
+
+| الإعداد | القيمة |
+| --- | --- |
+| Root Directory | فارغ |
+| Build Command | `bash scripts/render_build.sh` |
+| Start Command | `python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT` |
+| Health Check | `/api/health` |
+
+أضف `GROQ_API_KEY` إلى متغيرات بيئة خدمة الخادم، واضبط `CORS_ORIGINS` على عنوان الواجهة المنشورة الفعلي بصيغة `https://…onrender.com` دون شرطة مائلة أخيرة؛ تُفصل العناوين المتعددة بفواصل. احتفظ بإعدادات Groq الحالية وفق `.env.example` دون تغيير المزوّد أو النموذج، ولا تضع أسراراً في متغيرات `VITE_*`.
+
+### Frontend Static Site
+
+| الإعداد | القيمة |
+| --- | --- |
+| Root Directory | `frontend` |
+| Build Command | `npm ci --include=dev && npm run build` |
+| Publish Directory | `dist` |
+| VITE_API_BASE_URL | عنوان الخادم المنشور الفعلي على Render، دون `/api` |
+
+اضبط `VITE_API_BASE_URL` قبل بناء الواجهة؛ أي تغيير له يتطلب إعادة البناء. لم يُنشَر المشروع ضمن هذا الإعداد، لذلك لا يوجد عنوان خادم فعلي بعد؛ استخدم العنوان الذي تعرضه Render بعد إنشاء خدمة الخادم.
+
+يعمل سكربت البناء من جذر المستودع مهما كان مجلد استدعائه، ويتوقف عند أول خطأ: يثبت `requirements.txt`، ثم يشغّل `scripts/ingest_documents.py` و`scripts/build_index.py` محلياً دون أي استدعاء LLM. يعيد إنشاء `storage/` عند كل بناء؛ لا ترفعه إلى Git ولا تحتاج هذه المخرجات إلى قرص دائم. مصادر البناء هي سجلات `data/data/knowledge/` والملفات الخمسة في `data/data/raw/` المشار إليها في `sources.json`؛ جميعها متتبعة في Git بأسماء مطابقة لحالة الأحرف. لا تستخدم `data/raw/` بديلاً ولا تغيّر مسارات البيانات. ملفات `.env` والبيئات والاعتماديات والمخرجات و`storage/` و`tmp/` و`backups/` مستثناة من Git؛ تبقى ملفات `.env.example` متاحة للتوثيق فقط.
+
 ## تشغيل الواجهة والخادم من المشروع الموحّد
 
 جميع الأوامر التالية على PowerShell من جذر المشروع `C:\Users\Hp\rag-advisor`. الواجهة الفعلية الآن في `frontend/package.json` و`frontend/src/`، وتستخدم React وTypeScript وVite. استُخدم Node.js 24.15.0 وnpm 11.12.1 لتشغيل البناء واختبارات TypeScript مباشرة؛ البيئة الخلفية الحالية تستخدم Python 3.14.4.
